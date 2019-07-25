@@ -1,8 +1,8 @@
-/*#landing{
+#landing{
     background-image: url("https://pizza-brew.com/wp-content/uploads/2018/11/banner-home3.jpg");
     height: 250px;
     background-repeat: no-repeat;
-    background-size: cover;
+   /* background-size: cover;
     width:100%;
     text-align: center;
     padding-top: 150px;
