@@ -36,7 +36,7 @@ nav > ul> li{
     text-shadow:5px 5px rgb(10, 10, 10);
 }
 
-/*#order{
+#order{
     text-align: center;
     font-size: 20px;
     color: aliceblue;
@@ -64,7 +64,7 @@ nav > ul> li{
 }
 #contact{
 text-align: center;
-float: right;
+
     
 
 }
@@ -78,7 +78,7 @@ float: right;
 #image1{
     border-radius: 60%;
 }
-#menu{
+/*#menu{
 
     font-size: 80px;
     text-align: center;
