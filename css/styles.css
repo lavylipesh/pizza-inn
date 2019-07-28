@@ -29,14 +29,14 @@ nav > ul{
 nav > ul> li{
     margin-left: 20px;
 }
-/*#head{
+#head{
     font-size: 140px;
     font-family: 'Quattrocento', serif;
     text-align: center;
     text-shadow:5px 5px rgb(10, 10, 10);
 }
 
-#order{
+/*#order{
     text-align: center;
     font-size: 20px;
     color: aliceblue;
