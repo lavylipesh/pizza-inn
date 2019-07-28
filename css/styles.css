@@ -1,4 +1,4 @@
-/*#home{
+#home{
     background-image: url("https://cdn.pixabay.com/photo/2018/04/11/03/13/food-3309418_960_720.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,7 +10,7 @@
     opacity: 0.7;
 
 }
-#nav{
+/*#nav{
     padding-top: 0%;
     position: sticky;
     top: 0;
