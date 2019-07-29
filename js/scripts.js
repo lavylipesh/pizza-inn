@@ -69,7 +69,7 @@ function getBacon(){
     return parseInt (Bacon);
 }
 
-/*function getSausage(){
+function getSausage(){
     var Sausage = 0;
     var sausage = document.getElementById("defaultInline6");
        if (sausage.checked === true) {
