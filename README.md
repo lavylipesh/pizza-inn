@@ -1,5 +1,5 @@
 # pizza-inn
-This is a project on my pizza-inn where we receive orders from customers and deliver on time.
+This is a project on my Pizza Pan where we receive orders from customers and deliver  them on time.
 
 
 ## Author
@@ -14,12 +14,12 @@ This is an application that will be able to receive your request on what you nee
 
 * Open Terminal {Ctrl+Shift+T}
 
-* git clone (https://github.com/lavylipesh/delani-studio)
+* git clone (https://github.com/lavylipesh/pizza-inn)
 
 
-* cd delani-studio
+* cd pizza-inn
 
-* code . atom . based on the text editor you have.
+* code . or  atom . based on the text editor you have.
 ## Live page
 https://lavylipesh.github.io/pizza-inn
 
