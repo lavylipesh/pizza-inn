@@ -85,7 +85,7 @@ function doCalculation() {
 function addTotal(){
     var add = (getSize()+ getCrust() + getPep() + getOnion() + getSpinach() + getPepper()+ getBacon() +getSausage()) * getNumber()  + 150;
     
-    alert( "Hello,your total cost will be" + add );
+    alert( "Hello,your total cost will be" + add +     "it will be delivered at your place of choice  ,thankyou for choosing Pizza-Pan.");
 
 }
 
