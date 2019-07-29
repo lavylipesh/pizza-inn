@@ -17,7 +17,7 @@ function getCrust(){
     return parseInt (getCrust);
     
 }
-/*function getNumber(){
+function getNumber(){
     var getNumber=document.getElementById("getnumber").value;
     return parseInt (getNumber);
 }
@@ -30,7 +30,7 @@ function getPep(){
     }
     return parseInt (Pep);
 }
-function getOnion(){
+/*function getOnion(){
     var Onion = 0;
     var onion = document.getElementById("defaultInline2");
        if (onion.checked === true) {
