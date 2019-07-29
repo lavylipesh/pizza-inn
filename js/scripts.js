@@ -1,4 +1,4 @@
-/*$(document).ready(function(){
+$(document).ready(function(){
     $("#deliver").click(function(){
         prompt("where do you want your pizza delivered");
     });
@@ -17,7 +17,7 @@ function getCrust(){
     return parseInt (getCrust);
     
 }
-function getNumber(){
+/*function getNumber(){
     var getNumber=document.getElementById("getnumber").value;
     return parseInt (getNumber);
 }
