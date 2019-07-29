@@ -36,11 +36,7 @@ nav > ul> li{
     text-shadow:5px 5px rgb(10, 10, 10);
 }
 
-#order{
-    text-align: center;
-    font-size: 20px;
-    color: aliceblue;
-}
+
 
 .logo{
     font-family: 'Henny Penny', cursive;
@@ -86,7 +82,7 @@ text-align: center;
 #social{
     text-align: center;
     
-    font-size: 30%;
+    font-size: 30px;
 
 }
 #cont{
@@ -139,3 +135,52 @@ text-align: center;
     font-size: 20px;
     font-family: 'Niconne', cursive;
 }
+#Order{
+    text-align: center;
+    font-size: 60px;
+}
+.crust1{
+    text-align: center;
+    font-family: 'Niconne', cursive;
+    font-size: 30px;
+}
+.makeorder{
+    text-align: center;
+    font-family: 'Niconne', cursive;
+    font-size: 30px;
+}
+.top1{
+    text-align: center;
+    font-family: 'Niconne', cursive;
+    font-size: 30px;
+}
+#ord{
+    text-align: center;
+    font-size: 30px;
+}
+.many{
+    text-align: center;
+    font-family: 'Niconne', cursive;
+    font-size: 30px;
+}
+#I{
+    text-align: center;
+    font-family: 'Niconne', cursive;
+    font-size: 30px;
+    
+}
+#takeorder{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+

@@ -5,11 +5,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://mdbootstrap.com/previews/docs/latest/css/mdb.min.css">
-        <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
- 
-        
         <link href="https://fonts.googleapis.com/css?family=Henny+Penny|Monoton|Niconne|Parisienne|Quattrocento|Rubik+Mono+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+                 
+        
+        
     </head>
     <body>
             <div id="nav">
@@ -19,6 +20,7 @@
                              <li><a href="#about">About Us</a></li>
                              <li><a href="#menu">Menu</a></li>
                              <li><a href="#contact">Contact Us</a></li>
+                             <li><a href="#Order">Order</a> </li>
                         </ul>
                     </nav>
             </div>
@@ -30,7 +32,7 @@
 
             <p class="logo">Have a marvelous exprience from delivery to taste :)</p>
        
-            <div id="order"><button class="bg-success" >ORDER NOW</button></div><br><br>
+            
         
         </div>
         <div id="piza">
@@ -76,9 +78,7 @@
         <div class="col-md-3" id="image5">
         <img class="w-100"src="https://cdn.pixabay.com/photo/2016/03/05/20/17/america-1238742__340.jpg" alt="">
         <figcaption>Pepperoni</figcaption></div>
-        <div class="col-md-3" id="image6">
-        <img class="w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtFLVPxq0rqjWCEGYKXom_IgpTs8OdbkngcOoDORIVq6ZV2GnR" alt="">
-        <figcaption>Mushrooms</figcaption></div>
+        
         <div class="col-md-3" id="image16">
         <img class="w-100" src="https://cdn.pixabay.com/photo/2017/03/05/19/56/wood-fired-pizzas-2119644__340.jpg" alt="">
         <figcaption>Spinach</figcaption></div>
@@ -94,19 +94,106 @@
         <div class="col-md-3" id="image10">
         <img class="w-100" src="https://cdn.pixabay.com/photo/2014/08/05/23/11/pizza-411089__340.jpg" alt="">
         <figcaption>Onions</figcaption></div>
-        <div class="col-md-3" id="image11">
-        <img class="w-100" src="https://cdn.pixabay.com/photo/2017/12/05/20/08/pizza-3000282__340.png" alt="">
-        <figcaption>Pinneaple</figcaption></div>
-        <div class="col-md-3" id="image12">
-        <img class="w-100" src="https://cdn.pixabay.com/photo/2018/12/12/13/04/pizza-3870780__340.jpg" alt="">
-        <figcaption>Extra cheese</figcaption></div>
-        <div class="col-md-3" id="image13">
-        <img class="w-100" src="https://cdn.pixabay.com/photo/2017/12/05/20/08/pizza-3000271__340.jpg" alt="">
-        <figcaption>Black Olives</figcaption></div>
         
         </div>
         </div>
         </div>
+       <div id="makechoice">
+       <h2 id="Order">ORDER!AND IT WILL BE DELIVERED ;)</h2>
+        <div class="makeorder">
+                Choose your desired size
+                <select class="browser-default custom-select" id="getsize" onchange="getSize();">
+                    
+                    <option value="700">SMALL ksh.700</option>
+                    <option value="1000">MEDIUM ksh.1000</option>
+                    <option value="1500">LARGE ksh.1500</option>
+                </select>
+              </div>
+              <div class = "crust1">
+                What crust would you like for you pizza??
+                <select class="browser-default custom-select" id="getcrust" onchange="getCrust();">
+                  <option value="500">Crispy ksh.500 </option>
+                  <option value="300">Vegan ksh.300 </option>
+                  <option value="400">Cauliflower ksh.400</option>
+                  <option value="200">Gluten-free ksh.200</option>
+              </select>
+              </div>
+              <div class="top1">
+                Choose the perfect topping for your desired pizza<br><br>
+        
+        <div class="custom-control custom-checkbox custom-control-inline">
+            <input type="checkbox" class="custom-control-input" id="defaultInline1" onclick="getPep();">
+            <label class="custom-control-label" for="defaultInline1"  >Pepperoni ksh.200</label>
+          </div>
+        <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" class="custom-control-input onion" id="defaultInline2" onclick="getOnion();">
+                <label class="custom-control-label" for="defaultInline2" id="Onions" value="200">Onions ksh.200</label>
+        </div>
+        
+                          
+                      
+                  
+              
+          
+          
+          
+          
+          <div class="custom-control custom-checkbox custom-control-inline">
+            <input type="checkbox" class="custom-control-input spinach" id="defaultInline3" onclick="getSpinach();">
+            <label class="custom-control-label" for="defaultInline3" id="Spinach" value="200">Spinach ksh.200</label>
+          </div>
+        
+        <div class="custom-control custom-checkbox custom-control-inline">
+            <input type="checkbox" class="custom-control-input pepper" id="defaultInline4" onclick="getPepper();">
+            <label class="custom-control-label" for="defaultInline4" id="Peppers" value="200">Green Peppers ksh.200</label>
+          </div>
+          
+          
+          <div class="custom-control custom-checkbox custom-control-inline ">
+            <input type="checkbox" class="custom-control-input bacon" id="defaultInline5" onclick="getBacon();">
+            <label class="custom-control-label" for="defaultInline5" id="Bacon" value="200">Bacon ksh.200</label>
+          </div>
+          
+          
+          <div class="custom-control custom-checkbox custom-control-inline">
+            <input type="checkbox" class="custom-control-input sausage" id="defaultInline6" onclick="getSausage();">
+            <label class="custom-control-label" for="defaultInline6" id="Sausage" value="200">Sausage ksh.200</label>
+          </div>
+          <div class = "namba">
+                How many pizzas do youu want??
+                <select class="browser-default custom-select" id="getnumber" onchange="getNumber();">
+                  <option value="1">1 </option>
+                  <option value="2">2 </option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+              </select>
+              </div>
+
+
+              </div>
+              <button type="button" id="takeorder" class="bg-info" onclick="doCalculation();">ORDER</button></div>
+            </div>
+            <p id="appear"></p>
+              
+                    <div id="I">
+                    Do you want your pizza delivered??
+                    <button type="button" id="deliver" class="bg-success">YES</button>
+                    <button type="button" id="no" class="bg-danger">NO</button><br>
+                    <strong>Delivary is ksh.150</strong>
+                    </div>
+                    
+              <div id="ord">
+                <button type="button" id="take" class="bg-warning" onclick="addTotal();">CHECKOUT</button></div>
+
+  
+            
+  
         <div id="contact">
         <h2 id="cont">CONTACT US</h2>
         <form action="/action_page.php" class="was-validated"></form>
@@ -118,7 +205,7 @@
             </div>
             
             
-           <div class="form-group">
+            <div class="form-group">
                     <label for="pwd">Email:</label>
                     <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
                     <div class="valid-feedback">Valid.</div>
@@ -131,6 +218,8 @@
                         <div class="invalid-feedback">Please fill out this field.</div>
                       </div>
             <div class="form-group">
+                
+                
                      
                     <textarea name="Message" id="message" cols="30" rows="10" placeholder="Comment"></textarea>
 
@@ -140,26 +229,22 @@
 
             </div>
 
-            <div id="button">
-                 <button type="submit" class="bg-warning">SEND MESSAGE</button>
-            </div>
+            
+            <button type="submit" class="bg-success">Submit</button>
                   </div>
-        <div class="card bg-warning">
-        <div class="card-body text-center">
+                  
+                  
         <div id="social">
-       <h2 class="card-text">WE ARE SOCIAL</h2>
+        <h2>WE ARE SOCIAL</h2>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYLA022oaWargRURGfxNuZRbcA7BHerV7szbOOn5et7-dsO78A" alt="">
-        <div class="sisi">
         <ul>
             <li> Email:pizzapan@gmail.com</li>
             <li>Phone number:0715678943</li>
-            <li>Adress:Nong lane 657</li>
+            <li>Adress:Ngong lane 657</li>
             
         </ul>
-        </div>
     </div>
-    </div>
-    </div>
+
     
         
               
