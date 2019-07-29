@@ -30,7 +30,7 @@ function getPep(){
     }
     return parseInt (Pep);
 }
-/*function getOnion(){
+function getOnion(){
     var Onion = 0;
     var onion = document.getElementById("defaultInline2");
        if (onion.checked === true) {
@@ -69,7 +69,7 @@ function getBacon(){
     return parseInt (Bacon);
 }
 
-function getSausage(){
+/*function getSausage(){
     var Sausage = 0;
     var sausage = document.getElementById("defaultInline6");
        if (sausage.checked === true) {
